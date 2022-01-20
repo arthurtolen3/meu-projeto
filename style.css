@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;;
+    background-color: white;
+}
+.body2 {
+    background-color: #EEF6F8;
+}
+.nav-list {
+    background-color: white;
+    box-shadow: 0px 0px 10px #b6b6b6 ;
+    margin: 0;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-item {
+    list-style: none;
+    margin-right: 2rem;
+    font-weight: 700;
+}
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+.nav-item:first-child {
+    margin-right: 2rem;
+    margin-left: 2rem;
+
+}
+#noir {
+    
+    float: left;
+    margin-right: auto;
+}
+
+.btn-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    background-color: #64ECB0;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: .5rem 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+.caixa-geral{
+    background-color: #EEF6F8;
+    height: 650px;
+    width: 100%;
+}
+.caixa-geral img{
+    height: 600px;
+    padding-left: 490px;
+    padding-top: 25px;
+    
+}
+.categorias {
+    margin: 70px 0;
+    }
+.col-3 {
+        width: 100%;
+        margin-bottom: 30px;
+        display: inline;
+        min-width: 250px;
+        flex-basis: 30%;
+}
+.col-3 img{
+    width: 33%;
+    height: 442px;   
+
+}
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.col-4 img{
+        height: auto;
+        display: inline;
+        width: 250px;
+}
+.titulo-vendas {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+/* arrumar esse A depois */
+.caixa-capa {
+    margin-top: 180px;
+    margin-left: 300px;
+}
+.caixa-capa img {
+    width: 500px;
+    height: auto;
+}
+.caixa-capa li {
+    float: right;
+    padding-right: 930px;
+    }
+
+.btn-cap {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    background-color: #64ECB0;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: .5rem 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+
+}
+.footer {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: #EEF6F8;
+    font-size: 14px;
+    padding: 15px 15px 20px;
+}
